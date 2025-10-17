@@ -1,0 +1,80 @@
+{
+    "tabela": [
+        {
+            "pos": 1,
+            "time": "Flamengo",
+            "pts": 75,
+            "jogos": 38,
+            "v": 22,
+            "e": 9,
+            "d": 7,
+            "gp": 65,
+            "gc": 35
+        },
+        {
+            "pos": 2,
+            "time": "Palmeiras",
+            "pts": 70,
+            "jogos": 38,
+            "v": 20,
+            "e": 10,
+            "d": 8,
+            "gp": 60,
+            "gc": 30
+        },
+        {
+            "pos": 3,
+            "time": "Atlético-MG",
+            "pts": 68,
+            "jogos": 38,
+            "v": 19,
+            "e": 11,
+            "d": 8,
+            "gp": 55,
+            "gc": 32
+        },
+        {
+            "pos": 4,
+            "time": "Botafogo",
+            "pts": 65,
+            "jogos": 38,
+            "v": 18,
+            "e": 11,
+            "d": 9,
+            "gp": 58,
+            "gc": 40
+        },
+        {
+            "pos": 17,
+            "time": "Vasco da Gama",
+            "pts": 45,
+            "jogos": 38,
+            "v": 12,
+            "e": 9,
+            "d": 17,
+            "gp": 40,
+            "gc": 55
+        }
+    ],
+    "artilharia": [
+        {
+            "pos": 1,
+            "jogador": "Gabigol",
+            "time": "Flamengo",
+            "gols": 25
+        },
+        {
+            "pos": 2,
+            "jogador": "Hulk",
+            "time": "Atlético-MG",
+            "gols": 20
+        },
+        {
+            "pos": 3,
+            "jogador": "Tiquinho Soares",
+            "time": "Botafogo",
+            "gols": 18
+        }
+    ],
+    "ultima_atualizacao": "16/10/2025 22:12:56"
+}
