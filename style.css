@@ -136,3 +136,26 @@ footer {
     }
 }
 
+
+/* Estilos para o Carrossel de Imagens */
+#image-carousel {
+    width: 100%;
+    height: 300px; /* Altura fixa para o carrossel */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Transição suave */
+}
+
+.carousel-image.active {
+    opacity: 1;
+}

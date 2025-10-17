@@ -58,3 +58,23 @@ function renderArtilharia(artilharia) {
 // Inicia o carregamento dos dados quando a página é carregada
 document.addEventListener('DOMContentLoaded', loadData);
 
+
+
+// Lógica para o Carrossel de Imagens
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll(".carousel-image");
+    if (images.length > 1) {
+        let currentImageIndex = 0;
+        const totalImages = images.length;
+
+        function showNextImage() {
+            images[currentImageIndex].classList.remove("active");
+            currentImageIndex = (currentImageIndex + 1) % totalImages;
+            images[currentImageIndex].classList.add("active");
+        }
+
+        // Inicia o carrossel
+        setInterval(showNextImage, 5000); // Muda de imagem a cada 5 segundos
+    }
+});
+
